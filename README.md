@@ -1,12 +1,18 @@
 C Sharp Two-Week Sprint
 
-This project was using a Code First approach in ASP.NET Core MVC with EF Core Migration. We used Visual Studio 2019 and worked alongside 3 other students while under the supervision of a project manager and two assistants. I worked 20 hours a week on this project and did a daily meeting each morning to discuss our team's work. My video I attached here shows a walkthrough of the website functionality.
+This project was using a Code First approach in ASP.NET Core MVC with EF Core Migration. We used Visual Studio 2019 and I worked alongside 3 other students while under the supervision of a project manager and two assistants. I worked 20 hours a week on this project and did a daily meeting each morning to discuss our team's work. My video I attached here shows a walkthrough of the website functionality.
 
-The model, database and CRUD pages were already scaffolded when I was brought in on this project. I styled the navbar, index page, create page, and the edit page, while the delete and details pages are unchanged. The index page also is fully responsive to screen size.
+The model, database and CRUD pages were already scaffolded when I was brought in on this project. I styled the navbar, index page, create page, and the edit page, while the delete and details pages are unchanged. The index page also is fully responsive to screen size. 
+
+Here is a 50 second video to walk through the website functionality:
 
 
+I have only done a couple drills with EF and Razor pages before coming onto this project, so now I have come to a solid understanding of both and I could be of service to any team using those tools. As I finish the coding bootcamp with The Tech Academy here, I brought together what I have learned of software dev theory and 6 different coding languages and I see the results in my ability to learn quickly and push through frustration to get the job done.
 
 Above all else, I improved my ability to debug and resolve problems, whether related to syntax, page styling, or researching coding methods. And this is certainly the most important skill to have as a developer.
+
+![](videos/Walkthrough_of_site.mp4)
+
 
 
 
