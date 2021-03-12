@@ -2,9 +2,9 @@ C Sharp Two-Week Sprint
 
 This project was using a Code First approach in ASP.NET Framework MVC with Entity Framework. We used Visual Studio 2019 and I worked alongside 3 other students while under the supervision of a project manager and two assistants. I worked 20 hours a week on this project and did a daily meeting each morning to discuss our team's work. Here is the index page, with cshtml and css below:
 
-<img src="images/IndexPage.png" width=750>
-<img src="images/IndexPage_cshtml.png" width=750>
-<img src="images/IndexPage_css.png" width=750>
+<img src="./images/IndexPage.png" width=750>
+<img src="./images/IndexPage_cshtml.png" width=750>
+<img src="./images/IndexPage_css.png" width=750>
 
 
 
