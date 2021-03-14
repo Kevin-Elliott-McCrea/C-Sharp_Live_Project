@@ -10,15 +10,8 @@ I had 4 tasks completed within the sprint. I first needed to create a model, add
 Here is the index page, with cshtml and css below:
 
 <img src="./images/IndexPage.png" width=750>
-I used Bootstrap 4 cards with the grid layout for responsiveness and added my own styling
 
-<img src="./images/IndexPage_cshtml.png" width=750>
-This shows me passing in a unique list that I loop through twice to sort out each card by title name
-
-<img src="./images/IndexPage_css.png" width=750>
-Here is some of my personal styling that I added to the Index page
-
-
+----- put other images here, but not of code
 
 The project's skeleton was already set up when I joined, however I created the model for my area and scaffolded it. Then, I styled the navbar, index page, create page, and the edit page, while the delete and details pages are unchanged. 
 
