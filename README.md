@@ -20,7 +20,7 @@ Here is some of my personal styling that I added to the Index page
 
 
 
-The project's skeleton was already set up when I joined, however I created the model for my area and scaffolded it. Then, I styled the navbar, index page, create page, and the edit page, while the delete and details pages are unchanged. The index page also is fully responsive to screen size. I left much of the original scaffolded material, while adding on my own classes and bootstrap to make style changes. I also used a Hashset at the top to allow me to pass in the unique list of titles so that I could group each image together with those sharing a title name with it.
+The project's skeleton was already set up when I joined, however I created the model for my area and scaffolded it. Then, I styled the navbar, index page, create page, and the edit page, while the delete and details pages are unchanged. 
 
 
 # 50 sec video walkthrough
@@ -30,7 +30,7 @@ Here is a 50 second video to walk through the entire website functionality:
 
 
 
-I have only done a couple drills with EF and Razor pages before coming onto this project, so now I have come to a solid understanding of both and I could be of service to a team using those tools. As I finished the coding bootcamp with The Tech Academy here, I brought together what I learned of computer programming theory and 6 different coding languages and I see the results in my ability to learn quickly and push through frustration to get the job done.
+I have only done a couple drills with EF and Razor pages before coming onto this project, so now I have come to a solid understanding of both and I could be of service to a team using those tools. As I finished the coding bootcamp with The Tech Academy with this final project, I brought together what I learned of computer programming theory and 6 different coding languages and I see the results in my ability to learn quickly and push through frustration to get the job done.
 
 Above all else, I improved my ability to debug and resolve problems, whether related to syntax, page styling, or researching coding methods. And these are certainly the most important skills to have as a developer, along with the desire to finish and resilience in the face of the constant frustration that coding is. 
 
