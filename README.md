@@ -4,6 +4,9 @@ The end product of this overall project is to create an application for a local 
 
 I had 4 tasks completed within the sprint. I first needed to create a model and use the code-first method to create a database. Then I needed to add a controller to scaffold the CRUD controllers and views. Secondly, I was tasked with creating a site-wide partial-view navbar, based on the color scheme of the website. Then my job was to style the create and edit pages. Lastly, I worked to set up the index page of my section to show all database items grouped by title name and styled well.
 
+[Link to readme file with all my code](CodeDetails/README.md)
+
+
 
 # Visual examples
 
@@ -12,15 +15,18 @@ Navbar:
 <img src="./images/Navbar.png" width=750>
 
 Edit Page:
+
 <img src="./images/EditPage.png" width=750>
 
 Create Page:
+
 <img src="./images/CreatePage.png" width=750>
 
 Index Page:
+
 <img src="./images/IndexPage.png" width=750>
 
-[Behind the scenes code](CodeDetails/README.md)
+[Link to readme file with all my code](CodeDetails/README.md)
 
 # 1 Minute Walkthrough of Site
 
