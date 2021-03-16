@@ -1,7 +1,7 @@
 # Here is the breakdown of each story I completed
 
 We began the sprint on Monday the 22nd of January. We had the first day to get familiar with the project, then we began on the actual stories. 
-We had until Friday the next week to complete our stories. Below are the details of each story I did.
+We had until Friday the next week to complete our stories. Below are the details of each story I did. Keep in mind for color styling that I had to stay within the site colors prescribed for me by the project manager.
 
 ## Create model and scaffolding
 
@@ -35,14 +35,12 @@ I added my area to the dbcontext class identity model using this one line
 public System.Data.Entity.DbSet<Areas.Production.Models.ProductionPhoto> ProductionPhotos { get; set; }
 ```
 
-Then, I scaffolded th
+After that, I tested the database out and debugged some issues with its location. I resolved those issues, then I created the controller with MVC Entity Framework so that it scaffolded all the CRUD pages, controller methods, and views for me. At this point, I tested all the functionality of the database again, and all the of CRUD pages to make sure they all worked.
 
 
 ## Make site-wide navbar
 
-I created this partial view, rendered another partial view in it, then I rendered this navbar in the main layout.cshtml page for site-wide content.
-I used razor syntax for the render method as well as the action links. I also added bootstrap and my own css to override the bootstrap where I wanted a change.
-I grouped the center buttons under one div to center them and the rendered cshtml page buttons in another to align them on the right side.
+I created this partial view, rendered another partial view in it, then I rendered this navbar in the main layout.cshtml page and I put the css in the main.css file to accomplish site-wide content. I used razor syntax for the render method as well as the action links. I also added bootstrap and my own css to override the bootstrap where I wanted a change. I grouped the center buttons under one div to center them and the rendered cshtml page buttons in another to align them on the right side.
 
 ```C#
 <nav class="navbar navbar-expand-lg navbar-dark sticky-top nav-pills nav-fill">
@@ -109,6 +107,8 @@ Here is the CSS for the Navbar:
 
 ## Style create and edit pages
 
+With this, I worked to save time and make bootstrap classes and my own to format the create and edit pages with the same code. I styled the existing scaffolded content to be more user-friendly. Here I figured out how to add classes to Razor methods and learned how to debug using method definitions fairly well.
+
 Here is the cshtml for the create page:
 ```C#
 @model TheatreCMS3.Areas.Production.Models.ProductionPhoto
@@ -161,7 +161,7 @@ Here is the cshtml for the create page:
     @Scripts.Render("~/bundles/jqueryval")
 }
 ```
-Here is the edit page cshtml:
+Here is the edit page cshtml, which resembles the create page a lot, since it is basically the same in terms of function.
 ```C#
 @model TheatreCMS3.Areas.Production.Models.ProductionPhoto
 
@@ -207,7 +207,7 @@ Here is the edit page cshtml:
     </div>
 }
 ```
-As you can see, I used the same CSS for both pages since they had almost the same functionality
+Here you can see the CSS I used for both pages, which increases efficiency
 ```CSS
 .prodphoto-form-styling {
     background-color: var(--light-color);
@@ -272,6 +272,8 @@ As you can see, I used the same CSS for both pages since they had almost the sam
 
 
 ## Set up index page to have all db items grouped by title and style index page
+
+Here I used bootstrap 4 cards for the styling of the photo and description containers. This page would be for showing all the photos uploaded for each play that the company was going to show. To accomplish being able to show each one saved to the database, I made 2 loops and passed in a unique list of all titles that were saved. I managed this by using a hashset that selected unique names from the database and then I passed that into the first loop, which iterated through each unique title and then called the second loop, comparing each name for a match. If a match, it was added to the new list. This continued for each unique title name and then each new list was displayed on the index page.
 
 ```C#
 @model IEnumerable<TheatreCMS3.Areas.Production.Models.ProductionPhoto>
