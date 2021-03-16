@@ -2,21 +2,27 @@
 
 The end product of this overall project is to create an application for a local portland based theatre that is meant to be a content management site. The technologies we used on the project were C#, ASP.Net MVC, Entity Framework, SQLite, Git, Azure DevOps, Bootstrap and Visual Studio 2019. We used scrum as our team framework. 
 
-I had 4 tasks completed within the sprint. I first needed to create a model, add a controller and scaffold in a database plus CRUD pages for the model. Secondly, I was tasked with creating a site-wide partial-view navbar, based on the color scheme of the website. Then my job was to style the create and edit pages. Lastly, I worked to set up the index page of my section to show all database items grouped by title name and styled well.
+I had 4 tasks completed within the sprint. I first needed to create a model and use the code-first method to create a database. Then I needed to add a controller to scaffold the CRUD controllers and views. Secondly, I was tasked with creating a site-wide partial-view navbar, based on the color scheme of the website. Then my job was to style the create and edit pages. Lastly, I worked to set up the index page of my section to show all database items grouped by title name and styled well.
 
 
 # Visual examples
 
-Here is the index page, with cshtml and css below:
+Navbar:
 
+<img src="./images/Navbar.png" width=750>
+
+Edit Page:
+<img src="./images/EditPage.png" width=750>
+
+Create Page:
+<img src="./images/CreatePage.png" width=750>
+
+Index Page:
 <img src="./images/IndexPage.png" width=750>
 
------ put other images here, but not of code
+[Behind the scenes code](CodeDetails/README.md)
 
-The project's skeleton was already set up when I joined, however I created the model for my area and scaffolded it. Then, I styled the navbar, index page, create page, and the edit page, while the delete and details pages are unchanged. 
-
-
-# 50 sec video walkthrough
+# 1 Minute Walkthrough of Site
 
 Here is a 50 second video to walk through the entire website functionality:
 
@@ -41,12 +47,11 @@ Dev skills learned:
 
 
 
-Dev soft skills improved:
+Dev soft skills improved/gained:
 
 - High confidence in ability to smoothly communicate with team
 - Improved ability to frame questions precisely to my team when needing help with my code
+- Ability to gracefully accept feedback
+- Very easy to work with and highly coachable
 
 
-
-
-#PUT LINK TO OTHER README
