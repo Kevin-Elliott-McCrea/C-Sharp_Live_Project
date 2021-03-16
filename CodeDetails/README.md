@@ -1,12 +1,10 @@
-# Here is the breakdown of each story I completed
+# Breakdown of Each Story Completed
 
-We began the sprint on Monday the 22nd of January. We had the first day to get familiar with the project, then we began on the actual stories. 
-We had until Friday the next week to complete our stories. Below are the details of each story I did. Keep in mind for color styling that I had to stay within the site colors prescribed for me by the project manager.
+We began the sprint on Monday the 22nd of January. We had the first day to get familiar with the project, then we began on the actual stories. We had until Friday the next week to complete them. Below are the details of each story I did. Keep in mind for color styling that I had to stay within the site colors prescribed for me by the project manager.
 
-## Create model and scaffolding
+## Create Model and Scaffolding
 
-Here I made the model based on the story and added the controller method. 
-Then I scaffolded using the code first method and tested to make sure the database and CRUD functionality all worked.
+Here I made the model and created a derived context for it. Using the code first method, I created the database from the model and the context. Then I scaffolded the views and controllers for the CRUD pages and ran through the program and checked if my changes were saved to make sure the database and CRUD functionality all worked.
 
 Here is the model
 ```C#
@@ -38,9 +36,9 @@ public System.Data.Entity.DbSet<Areas.Production.Models.ProductionPhoto> Product
 After that, I tested the database out and debugged some issues with its location. I resolved those issues, then I created the controller with MVC Entity Framework so that it scaffolded all the CRUD pages, controller methods, and views for me. At this point, I tested all the functionality of the database again, and all the of CRUD pages to make sure they all worked.
 
 
-## Make site-wide navbar
+## Make Site-Wide Navbar
 
-I created this partial view, rendered another partial view in it, then I rendered this navbar in the main layout.cshtml page and I put the css in the main.css file to accomplish site-wide content. I used razor syntax for the render method as well as the action links. I also added bootstrap and my own css to override the bootstrap where I wanted a change. I grouped the center buttons under one div to center them and the rendered cshtml page buttons in another to align them on the right side.
+I created this partial view, I also nested a partial view for the login page in it. Then I nested the navbar in the main layout.cshtml page and I put the css in the main.css file to accomplish site-wide content. I used html helpers to nest the navbar and create links to other site pages. I also added bootstrap classes and my own css to override the bootstrap where I wanted a change. I grouped the center buttons under one div to center them and the rendered cshtml page buttons in another to align them on the right side.
 
 ```C#
 <nav class="navbar navbar-expand-lg navbar-dark sticky-top nav-pills nav-fill">
@@ -71,7 +69,7 @@ I created this partial view, rendered another partial view in it, then I rendere
   </div>
 </nav>
 ```
-Here is the CSS for the Navbar:
+I used CCS selectors to target elements and either apply new styling, or to override bootstrap classes
 ```CSS
 /* Styling and positioning for the Navbar */
 .nav > li {
@@ -105,7 +103,7 @@ Here is the CSS for the Navbar:
 }
 ```
 
-## Style create and edit pages
+## Style Create and Edit Pages
 
 With this, I worked to save time and make bootstrap classes and my own to format the create and edit pages with the same code. I styled the existing scaffolded content to be more user-friendly. Here I figured out how to add classes to Razor methods and learned how to debug using method definitions fairly well.
 
@@ -161,7 +159,7 @@ Here is the cshtml for the create page:
     @Scripts.Render("~/bundles/jqueryval")
 }
 ```
-Here is the edit page cshtml, which resembles the create page a lot, since it is basically the same in terms of function.
+Here is the edit page cshtml. You'll notice the styling is the same. This was to be efficient by increasing code repetition.
 ```C#
 @model TheatreCMS3.Areas.Production.Models.ProductionPhoto
 
@@ -271,9 +269,9 @@ Here you can see the CSS I used for both pages, which increases efficiency
 ```
 
 
-## Set up index page to have all db items grouped by title and style index page
+## Index Page: Sort Production Photos by Title
 
-Here I used bootstrap 4 cards for the styling of the photo and description containers. This page would be for showing all the photos uploaded for each play that the company was going to show. To accomplish being able to show each one saved to the database, I made 2 loops and passed in a unique list of all titles that were saved. I managed this by using a hashset that selected unique names from the database and then I passed that into the first loop, which iterated through each unique title and then called the second loop, comparing each name for a match. If a match, it was added to the new list. This continued for each unique title name and then each new list was displayed on the index page.
+Here I used bootstrap cards for the styling of the photo and description containers. This page is intended to show all the photos uploaded for each play in production. I managed this by using a hashset that selected unique names from the database and then it gets passed that into a loop, which iterated through each unique title and then called a nested loop. This loop compared each name for a match. If a match was found, it was added to the new list. This continued for each unique title name and then each new list of photos with titles that match would be displayed on the index page, using the HTML and Razor inside the second loop.
 
 ```C#
 @model IEnumerable<TheatreCMS3.Areas.Production.Models.ProductionPhoto>
@@ -322,7 +320,7 @@ Here I used bootstrap 4 cards for the styling of the photo and description conta
     </div>
 }
 ```
-CSS for index page:
+Styling index page cards and page alignment
 ```CSS
 .prodphoto-card {
     border: none;
