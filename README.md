@@ -59,9 +59,9 @@ Features added:
 
 [Link to beginning of readme file with all my code](CodeDetails/README.md)
 
-# 1 Minute Walkthrough of Site
+# Video Walkthrough of Site
 
-Here is a 50 second video to walk through the entire website functionality:
+Here is a 42 second video to walk through the website functionality I created:
 
 <a href="http://www.youtube.com/watch?feature=player_embedded&v=9qE95N85SFM
 " target="_blank"><img src="http://img.youtube.com/vi/9qE95N85SFM/0.jpg" 
@@ -75,7 +75,7 @@ Above all else, I improved my ability to debug and resolve problems, whether rel
 # Skills learned
 
 
-Dev skills learned:
+Dev coding skills learned:
 
 - Function and styling of cshtml pages with Razor syntax
 - Improved debugging using developer tools and inspecting method definition to resolve incorrect implementation
