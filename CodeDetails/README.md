@@ -105,7 +105,7 @@ I used CCS selectors to target elements and either apply new styling, or to over
 
 ## Style Create and Edit Pages
 
-With this, I worked to save time and make bootstrap classes and my own to format the create and edit pages with the same code. I styled the existing scaffolded content to be more user-friendly. Here I figured out how to add classes to Razor methods and learned how to debug using method definitions fairly well.
+With this, I added bootstrap classes and my own to format the create and edit pages with the same bootstrap and css selectors, which increases code reusability. In essence, I styled the existing scaffolded content to be more user-friendly. Here I figured out how to add classes to html helper methods and learned how to debug using method definitions fairly well.
 
 Here is the cshtml for the create page:
 ```C#
@@ -159,7 +159,7 @@ Here is the cshtml for the create page:
     @Scripts.Render("~/bundles/jqueryval")
 }
 ```
-Here is the edit page cshtml. You'll notice the styling is the same. This was to be efficient by increasing code repetition.
+Here is the edit page cshtml. You'll notice the styling is the same. This was to be efficient by increasing code reusability.
 ```C#
 @model TheatreCMS3.Areas.Production.Models.ProductionPhoto
 
@@ -205,7 +205,7 @@ Here is the edit page cshtml. You'll notice the styling is the same. This was to
     </div>
 }
 ```
-Here you can see the CSS I used for both pages, which increases efficiency
+Here you can see the CSS I used for both pages.
 ```CSS
 .prodphoto-form-styling {
     background-color: var(--light-color);
@@ -271,7 +271,7 @@ Here you can see the CSS I used for both pages, which increases efficiency
 
 ## Index Page: Sort Production Photos by Title
 
-Here I used bootstrap cards for the styling of the photo and description containers. This page is intended to show all the photos uploaded for each play in production. I managed this by using a hashset that selected unique names from the database and then it gets passed that into a loop, which iterated through each unique title and then called a nested loop. This loop compared each name for a match. If a match was found, it was added to the new list. This continued for each unique title name and then each new list of photos with titles that match would be displayed on the index page, using the HTML and Razor inside the second loop.
+Here I used bootstrap cards for the styling of the photo and description containers. This page is intended to show all the photos uploaded for each play in production. I managed this by using a hashset that selected unique names from the database and then passing that into a loop, which iterates through each unique title and then calls a nested loop. This loop compared each name for a match. If a match was found, it was added to the new list. This continued for each unique title name and then each new list of photos with titles that match would be displayed on the index page, using the form formatting and function in the nested loop.
 
 ```C#
 @model IEnumerable<TheatreCMS3.Areas.Production.Models.ProductionPhoto>
