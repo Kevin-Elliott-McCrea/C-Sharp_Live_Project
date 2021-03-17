@@ -7,9 +7,9 @@ I had 4 tasks completed within the sprint. I first needed to create a model and 
 
 # Features I Added
 
-Here I describe features I added for each story completed. Story one will have that description and a link to another readme file with the code I used to complete the story. Each of these images for story 2-4 show the user-facing webpage display. At the top of each image, there is a link that will take you to the code that creates the page structure and styling. Below the links are bullet points that show features I added.
+Here I describe features I added for each story completed. Story one will have that description and its title will be a link to the code written for it. Each of these images for story 2-4 show the user-facing webpage display. The title of each story will be a link that will take you to the code that creates the page structure and styling. Below the links are bullet points that show features I added.
 
-Story 1 - [Link to model/scaffolding story](CodeDetails/README.md#create-model-and-scaffolding)
+Story 1 - [Create Model and Scaffolding](CodeDetails/README.md#create-model-and-scaffolding)
 
 Features added:
 
