@@ -1,4 +1,4 @@
-# C Sharp Two-Week Sprint - Overview
+# ASP.NET MVC Project
 
 The end product of this overall project is to create an application for a local portland based theatre that is meant to be a content management site. The technologies we used on the project were C#, ASP.Net MVC, Entity Framework, SQLite, Git, Azure DevOps, Bootstrap and Visual Studio 2019. We used scrum as our team framework. 
 
