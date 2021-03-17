@@ -21,7 +21,7 @@ Create Page - [Create page code](CodeDetails/README.md#style-create-and-edit-pag
 
 <img src="./images/CreatePage.png" width=750>
 
-Index Page - [Index page code](CodeDetails/README.md#create-model-and-scaffolding)
+Index Page - [Index page code](CodeDetails/README.md#index-page-sort-production-photos-by-title)
 
 <img src="./images/IndexPage.png" width=750>
 
