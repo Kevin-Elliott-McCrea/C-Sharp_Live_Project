@@ -63,7 +63,9 @@ Features added:
 
 Here is a 50 second video to walk through the entire website functionality:
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/9qE95N85SFM" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<a href="http://www.youtube.com/watch?feature=player_embedded&v=9qE95N85SFM
+" target="_blank"><img src="http://img.youtube.com/vi/9qE95N85SFM/0.jpg" 
+alt="IMAGE ALT TEXT HERE" width="240" height="180" border="10" /></a>
 
 I have only done a couple drills with EF and Razor pages before coming onto this project. I started out fumbling and struggling to understand how the code first technique worked and how to interact with the database on those drills and eventually came to understand basically how it functions. Now, as I have worked through this project, I have come to a solid understanding of both as well as how to work with general MVC and I could be of service to a team using those tools. As I finished the coding bootcamp with The Tech Academy with this final project, I have seen the huge importance of learning the fundamentals of computer hardware, software and general principles. Because without that under my belt, I would have been struggling every step of the way on this project. Instead, I brought together what I learned of computer programming theory and 6 different coding languages and I see the results in my ability to learn quickly and push through frustration to get the job done in this project. 
 
