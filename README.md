@@ -57,11 +57,9 @@ Features added:
 
 <img src="./images/IndexPage.png" width=750>
 
-[Link to beginning of readme file with all my code](CodeDetails/README.md)
-
 # Video Walkthrough of Site
 
-Here is a 42 second video to walk through the website functionality I created:
+Here is a link to my 42 second video that walks through the website functionality I created:
 
 <a href="http://www.youtube.com/watch?feature=player_embedded&v=9qE95N85SFM
 " target="_blank"><img src="http://img.youtube.com/vi/9qE95N85SFM/0.jpg" 
