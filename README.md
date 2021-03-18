@@ -45,7 +45,7 @@ Features added:
 
 <img src="./images/CreatePage.png" width=750>
 
-Story 4 - [Index Page: Sort Production Photots by Title](CodeDetails/README.md#index-page-sort-production-photos-by-title)
+Story 4 - [Index Page: Sort Production Photos by Title](CodeDetails/README.md#index-page-sort-production-photos-by-title)
 
 Features added:
 
