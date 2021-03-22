@@ -1,6 +1,6 @@
-# ASP.NET MVC Application Internship
+# ASP.NET MVC Application
 
-The end product of this overall project is to create an application for a local portland based theatre that is meant to be a content management site. The technologies we used on the project were C#, ASP.Net MVC, Entity Framework, SQLite, Git, Azure DevOps, Bootstrap and Visual Studio 2019. We used scrum as our team framework. 
+The end product of this overall internship with Prosper IT Consulting is to create an application for a local portland based theatre that is meant to be a content management site. The technologies we used on the project were C#, ASP.Net MVC, Entity Framework, SQLite, Git, Azure DevOps, Bootstrap and Visual Studio 2019. We used scrum as our team framework. 
 
 I had 4 tasks completed within the sprint. I first needed to create a model and use the code-first method to create a database. Then I needed to add a controller to scaffold the CRUD controllers and views. Secondly, I was tasked with creating a site-wide partial-view navbar, based on the color scheme of the website. Then my job was to style the create and edit pages. Lastly, I worked to set up the index page of my section to show all database items grouped by title name and styled well.
 
